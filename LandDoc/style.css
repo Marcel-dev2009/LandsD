@@ -183,19 +183,23 @@ footer{
 }
 /* MEDIA QUERIES */
 @media screen and (max-width:768px) {
+    html{
+        width:auto;
+    }
     .greetings{
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
     nav{
         display: none;
     }
     .info > p{
-        margin-left: 2rem;
+       margin-left: 3rem;
     }
     form{
         text-align: left;
-        margin-left: 0.5rem;
-        width:  300px;
+        margin-left: 2rem;
+        width:  310px;
+        margin-bottom: 0.5rem;
     }
     input{
         margin-left: 1rem;
